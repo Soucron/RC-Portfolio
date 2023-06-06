@@ -1,7 +1,6 @@
 .mainBlock {
-    height: 100vh;
+    min-height: 100vh;
     background: #a9e154;
-
 }
 
 

@@ -1,0 +1,29 @@
+.footerBlock {
+    min-height:  200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center  ;
+}
+
+.footerContainer h2 {
+    margin: 0;
+}
+
+.networks {
+    max-width: 280px;
+    border: 3px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
