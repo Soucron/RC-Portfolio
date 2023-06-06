@@ -11,7 +11,7 @@ const Contacts = () => {
                     <input/>
                     <textarea/>
                 </form>
-                <button>Enter</button>
+                <button className={style.contactsButton}>Enter</button>
             </div>
 
         </div>

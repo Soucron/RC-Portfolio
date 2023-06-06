@@ -1,5 +1,5 @@
 .skill {
-    width: 250px;
+    width: 100%;
     background-color: wheat;
     display: flex;
     flex-direction: column;

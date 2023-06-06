@@ -1,8 +1,18 @@
 .mainBlock {
-    min-height: 100vh;
+    height: 100vh;
     background: #a9e154;
 }
 
+.mainContainer {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+    flex-wrap: nowrap;
+}
 
 
 .text {
@@ -12,6 +22,7 @@
 
 .photo {
     width: 300px;
-    height: 400px;
+    height: 300px;
+
     background-color: blue;
 }

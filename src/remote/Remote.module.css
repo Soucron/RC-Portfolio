@@ -1,12 +1,12 @@
 .remoteBlock {
-    max-height: 30vh;
+    min-height:  150px;
     background: #2de5c2;
     display: flex;
     justify-content: center;
 }
 
 .remote {
-    height: 80%;
+    height: 150px;
     width: 80%;
     border: 1px solid;
     display: flex;
@@ -21,7 +21,7 @@
 
 
 .remoteButton {
-    min-height: 20%;
-    min-width: 10%;
+    min-height: 50px;
+    min-width: 100px;
 }
 
