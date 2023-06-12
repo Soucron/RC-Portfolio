@@ -1,6 +1,5 @@
 import React from 'react';
-
-import './App.css';
+import { BrowserRouter} from 'react-router-dom';
 import Header from './header/Header';
 import Main from './main/Main';
 import Skills from './skills/Skills';
@@ -9,9 +8,10 @@ import Remote from './remote/Remote';
 import Contacts from './contacts/Contacts';
 import Footer from './footer/Footer';
 
-function App() {
+const  App = () => {
     return (
-        <div className="App">
+        <BrowserRouter>
+        <div>
             <Header/>
             <Main/>
             <Skills/>
@@ -20,6 +20,7 @@ function App() {
             <Contacts/>
             <Footer/>
         </div>
+    </BrowserRouter>
     );
 }
 
