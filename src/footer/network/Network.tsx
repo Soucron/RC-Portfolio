@@ -1,12 +1,17 @@
 import React from 'react';
 import style from './Network.module.css';
 
-const Network = () => {
+type NetworkType = {
+    src: string,
+    href: string
+}
+
+export const Network = (n: NetworkType) => {
     return (
         <div className={style.network}>
-            G
+            <a href= {n.href} >
+                <img src ={n.src}/>
+            </a>
         </div>
     );
 };
-
-export default Network;
