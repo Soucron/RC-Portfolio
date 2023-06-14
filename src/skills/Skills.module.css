@@ -1,14 +1,15 @@
+
 .skillsBlock {
-    min-height: 700px;
-    background: #a8ab82;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(90deg, rgb(236, 186, 51) 10%, rgb(10, 23, 26) 100%);
+
 }
 
 
 
 .skillsContainer {
-    height: 100%;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -19,14 +20,15 @@
 }
 
 .title {
-    background-color: blue;
+    font-size: 20px;
+    color: white;
 }
 
 .skills {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 15px;
+    list-style: none;
 }
