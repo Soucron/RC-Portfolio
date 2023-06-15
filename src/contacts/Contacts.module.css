@@ -1,41 +1,76 @@
 .contactsBlock {
     min-height: 400px;
-    background: #e5258f;
+    background: linear-gradient(90deg, rgb(236, 186, 51) 10%, rgb(10, 23, 26) 100%);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.contactsContainer {
+    min-height: 350px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contactsContainer {
-    min-height: 500px;
-    width: 80%;
-    border: 5px solid black;
-    margin: 0 auto;
+.contactsContainer h2 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.contactsInfoForm {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+
+
 }
 
 .contactsForm {
-    width: 50%;
     min-height: 300px;
-    border: 5px solid green;
+    min-width: 100px;
+
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
 }
 
+
 .contactsForm input {
-    min-height: 50px;
+    min-height: 25px;
 }
 
 .contactsForm textarea {
-    min-height: 200px
+    min-height: 50px
+}
+
+.holders {
+    background-color: #6c6868;
+    border-radius: 8px;
+    border: 1px #6c6868;
+    color: white;
+}
+
+.holders::placeholder {
+    color: #fdfdfd;
 }
 
 .contactsButton {
-    min-height: 50px;
+    min-height: 40px;
     min-width: 100px;
+    background-color: #6c6868;
+    color: #fdfdff;
+    border-radius: 9px;
+    text-align: center;
 }
+
+
