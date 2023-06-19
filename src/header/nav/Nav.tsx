@@ -17,7 +17,7 @@ export const Nav = () => {
     let navLinks: navLinkType[] = [
         {id: '1',idEl: 'main', title: 'Main', offset: -500},
         {id: '2',idEl: 'mySkills', title: 'My skills', offset: -100},
-        {id: '3',idEl: 'myProjects', title: 'My projects', offset: -100},
+        {id: '3',idEl: 'myProjects', title: 'My projects', offset: -200},
         {id: '4',idEl: 'contacts', title: 'Contacts', offset: -400}
 
     ]
