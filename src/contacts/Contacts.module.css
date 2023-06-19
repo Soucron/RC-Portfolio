@@ -1,6 +1,6 @@
 .contactsBlock {
     min-height: 400px;
-    background: linear-gradient(90deg, rgb(236, 186, 51) 10%, rgb(10, 23, 26) 100%);
+    background: #fdca40;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,46 +18,51 @@
 }
 
 .contactsContainer h2 {
-    color: white;
     padding: 0;
     margin: 0;
 }
 
 .contactsInfoForm {
-    width: 100%;
+    min-width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 100px;
 
 
 }
 
 .contactsForm {
-    min-height: 300px;
-    min-width: 100px;
-
-    margin: 0 auto;
+    min-width: 225px;
+    min-height: 225px;
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    padding-top: 10px;
+    gap: 10px
+}
+
+.contactsForm h2 {
+    font-size: 20px;
 }
 
 
 .contactsForm input {
-    min-height: 25px;
+    min-height: 37px;
 }
 
 .contactsForm textarea {
-    min-height: 50px
+    min-height: 75px;
 }
 
 .holders {
     background-color: #6c6868;
     border-radius: 8px;
     border: 1px #6c6868;
-    color: white;
+    margin-top: 5px;
 }
 
 .holders::placeholder {
@@ -71,6 +76,25 @@
     color: #fdfdff;
     border-radius: 9px;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .contactsInfoForm {
+        min-width: 100%;
+        gap: 0;
+    }
+    .contactsForm {
+        padding-left: 0;
+        gap: 2px;
+    }
+
+    .contactsForm input {
+        min-height: 25px;
+    }
+    .contactsForm textarea {
+        min-height: 100px;
+    }
+
 }
 
 

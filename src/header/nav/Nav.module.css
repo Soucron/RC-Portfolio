@@ -1,26 +1,41 @@
 .nav {
-    width: 300px;
+    min-width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     z-index: 20;
     list-style: none;
+    gap: 15px;
 }
 
 
- .white {
+ .navItem {
     color: white;
     text-decoration: none;
+    font-size: 22px;
 }
 
-.golden {
-    color: goldenrod;
+.active {
+    color:  rgb(253, 202, 64);
     text-decoration: none;
+    font-size: 22px;
 }
 
  hover {
     cursor: pointer;
-    font-weight: 500;
-    font-size: 22px;
     color: white;
 }
+
+ @media (max-width: 480px) {
+     .nav {
+         min-width: 200px;
+         gap: 5px;
+     }
+     .navItem {
+         font-size: 16px;
+     }
+     .active {
+         font-size: 16px;
+     }
+
+ }

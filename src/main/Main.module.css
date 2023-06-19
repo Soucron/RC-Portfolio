@@ -1,6 +1,7 @@
+
 .mainBlock {
     min-height: 100vh;
-    background: linear-gradient(90deg, rgb(236, 186, 51) 10%, rgb(10, 23, 26) 100%);
+    background: black;
 
 }
 
@@ -17,24 +18,63 @@
 
 .text {
     width: 300px;
+}
 
+.text h1 {
+ color: rgb(253, 202, 64);
+}
+
+.text span {
+    color: white ;
+    font-size: 48px;
+    margin-top: 25px;
+}
+
+.text p {
+    font-size: 20px;
+    color:  rgb(253, 202, 64);
 }
 
 .photo {
-    width: 300px;
-    height: 300px;
+    width: 360px;
+    height: 360px;
     background-color: blue;
-    border-radius: 145px;
+    border-radius: 145px 145px 25px 25px;
 }
 
-span {
-    font-size: 24px;
-    color: #6c6868;
+@media (max-width: 480px) {
+    .mainContainer {
+        padding: 80px 0 10px 0;
+    }
+    .photo {
+        width: 200px;
+        height: 200px;
+    }
+    .text h1 {
+        font-size: 24px;
+    }
+
+    .text span {
+        font-size: 32px;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
 
 }
 
-
-
-p {
-    font-size: 18px;
+@media (max-width: 720px) and (min-width: 480px) {
+    .mainBlock {
+        min-height: 80vh;
+    }
+    .mainContainer {
+        padding-bottom: 15px;
+    }
+    .photo {
+        width: 300px;
+        height: 300px;
+    }
+    
 }
+

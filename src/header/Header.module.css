@@ -1,8 +1,12 @@
 .header {
     min-height: 80px;
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    z-index: 100;
+
 }
 
