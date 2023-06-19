@@ -4,7 +4,7 @@ import {MyContacts} from './mycontacts/MyContacts';
 
 const Contacts = () => {
     return (
-        <div className={style.contactsBlock} id={'contacts'}>
+        <div className={style.contactsBlock} id={'contacts'} >
             <div className={style.contactsContainer}>
                 <h2>Contacts</h2>
                 <div className={style.contactsInfoForm}>

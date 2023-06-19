@@ -21,10 +21,6 @@
     font-size: 22px;
 }
 
- hover {
-    cursor: pointer;
-    color: white;
-}
 
  @media (max-width: 480px) {
      .nav {

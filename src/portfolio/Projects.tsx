@@ -20,10 +20,10 @@ const Projects = () => {
 
 
     return (
-        <div className={style.projectsBlock} id={'myProjects'}>
+        <div className={style.projectsBlock} id={'myProjects'} >
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <h2 className={style.title}>My Projects</h2>
-                <div className={style.projects}>
+                <div className={style.projects} >
                     {AllProjects.map(p => {
                         return(<Project name={p.name} description={p.description} href={p.href} src={p.src}/> )
                     })}
