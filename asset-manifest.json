@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RC-Portfolio/static/css/main.dff837ee.css",
-    "main.js": "/RC-Portfolio/static/js/main.9ff28689.js",
+    "main.css": "/RC-Portfolio/static/css/main.c9a645b5.css",
+    "main.js": "/RC-Portfolio/static/js/main.1d9f27e0.js",
     "static/js/787.1ed0c42c.chunk.js": "/RC-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/TODOLIST.png": "/RC-Portfolio/static/media/TODOLIST.53829a44801d4096deaa.png",
     "static/media/REACT.svg": "/RC-Portfolio/static/media/REACT.dd275fdb764235ab0a302566184f18b0.svg",
@@ -16,12 +16,12 @@
     "static/media/TELEGRAM.svg": "/RC-Portfolio/static/media/TELEGRAM.5b03c0321bacc05afb949f7cf204cf5c.svg",
     "static/media/CSS.svg": "/RC-Portfolio/static/media/CSS.bfbbdd2a11a415e26b97018ae322cd04.svg",
     "static/media/HTML.svg": "/RC-Portfolio/static/media/HTML.f58c74b954fe6bc10f90d69034fd9527.svg",
-    "main.dff837ee.css.map": "/RC-Portfolio/static/css/main.dff837ee.css.map",
-    "main.9ff28689.js.map": "/RC-Portfolio/static/js/main.9ff28689.js.map",
+    "main.c9a645b5.css.map": "/RC-Portfolio/static/css/main.c9a645b5.css.map",
+    "main.1d9f27e0.js.map": "/RC-Portfolio/static/js/main.1d9f27e0.js.map",
     "787.1ed0c42c.chunk.js.map": "/RC-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dff837ee.css",
-    "static/js/main.9ff28689.js"
+    "static/css/main.c9a645b5.css",
+    "static/js/main.1d9f27e0.js"
   ]
 }
