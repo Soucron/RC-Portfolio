@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/RC-Portfolio/static/css/main.57e9d8a6.css",
-    "main.js": "/RC-Portfolio/static/js/main.1d9f27e0.js",
+    "main.js": "/RC-Portfolio/static/js/main.780dd67a.js",
     "static/js/787.1ed0c42c.chunk.js": "/RC-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/TODOLIST.png": "/RC-Portfolio/static/media/TODOLIST.53829a44801d4096deaa.png",
     "static/media/REACT.svg": "/RC-Portfolio/static/media/REACT.dd275fdb764235ab0a302566184f18b0.svg",
+    "static/media/JEST.svg": "/RC-Portfolio/static/media/JEST.47ce4979e95d19e297057d5f1ddcfddd.svg",
     "static/media/REDUX.svg": "/RC-Portfolio/static/media/REDUX.000c7cea47bf6c69afdb72dae539a939.svg",
     "static/media/MAP.svg": "/RC-Portfolio/static/media/MAP.808faafd409ecbe0f398cde71ddf1f2e.svg",
+    "static/media/STORYBOOK.svg": "/RC-Portfolio/static/media/STORYBOOK.806cb390ea3f659d04b85a3676da4292.svg",
     "static/media/EMAIL.svg": "/RC-Portfolio/static/media/EMAIL.f66f24fb344a1c4e61772e1132837983.svg",
     "static/media/TS.svg": "/RC-Portfolio/static/media/TS.98c8acdb3d46261d8b6fabfedc4a2dd2.svg",
     "static/media/GITHUB.svg": "/RC-Portfolio/static/media/GITHUB.42792e9581e01c72de58dd5533513223.svg",
@@ -17,11 +19,11 @@
     "static/media/CSS.svg": "/RC-Portfolio/static/media/CSS.bfbbdd2a11a415e26b97018ae322cd04.svg",
     "static/media/HTML.svg": "/RC-Portfolio/static/media/HTML.f58c74b954fe6bc10f90d69034fd9527.svg",
     "main.57e9d8a6.css.map": "/RC-Portfolio/static/css/main.57e9d8a6.css.map",
-    "main.1d9f27e0.js.map": "/RC-Portfolio/static/js/main.1d9f27e0.js.map",
+    "main.780dd67a.js.map": "/RC-Portfolio/static/js/main.780dd67a.js.map",
     "787.1ed0c42c.chunk.js.map": "/RC-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57e9d8a6.css",
-    "static/js/main.1d9f27e0.js"
+    "static/js/main.780dd67a.js"
   ]
 }
