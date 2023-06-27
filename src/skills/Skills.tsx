@@ -8,6 +8,8 @@ import  JS from '../../src/assets/logo/skills/JS.svg'
 import  REACT from '../../src/assets/logo/skills/REACT.svg'
 import  REDUX from '../../src/assets/logo/skills/REDUX.svg'
 import  TS from '../../src/assets/logo/skills/TS.svg'
+import STORYBOOK from '../../src/assets/logo/skills/STORYBOOK.svg'
+import JEST from '../../src/assets/logo/skills/JEST.svg'
 
 
 export type SkillType = {
@@ -27,6 +29,8 @@ const Skills = () => {
         {id: 5, title: 'GIT', img: GIT},
         {id: 6, title: 'REACT', img: REACT},
         {id: 7, title: 'REDUX', img: REDUX},
+        {id: 8, title: 'STORYBOOK', img: STORYBOOK },
+        {id: 9, title: 'JEST', img: JEST }
     ]
 
 
