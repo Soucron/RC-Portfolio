@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Project.module.css'
+import style from './Project.module.scss'
 import {ProjectType} from '../Projects';
 
 
@@ -8,7 +8,7 @@ const Project = (p: ProjectType) => {
         <div className={style.project}>
             <div className={style.imageContainer}>
                 <a>
-            <img src={p.src} alt='some image' className={style.icon} />
+            <img src={p.src} alt='project' className={style.icon} />
                 </a>
             </div>
             <div className={style.description}>
@@ -17,7 +17,6 @@ const Project = (p: ProjectType) => {
                     {p.description}
                 </span>
             </div>
-
 
         </div>
     );

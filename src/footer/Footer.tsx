@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import {Network} from './network/Network';
 import GITHUB from '../assets/logo/footer/GITHUB.svg'
 import TELEGRAM from '../assets/logo/footer/TELEGRAM.svg'

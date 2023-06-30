@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './MyContacts.module.css'
+import style from './MyContacts.module.scss'
 import EMAIL from '../../assets/logo/contacts/EMAIL.svg'
 import MAP from '../../assets/logo/contacts/MAP.svg'
 
@@ -8,7 +8,7 @@ export const MyContacts = () => {
     return (<div className={style.myContactsContainer}>
             <div className={style.info}>
                 <div className={style.infoImage}>
-                    <img src={MAP} width="60px" height="60px"/>
+                    <img src={MAP}/>
                 </div>
                 <div className={style.infoText}>
                     <span className={style.mainSpan}> Address </span>
@@ -17,7 +17,7 @@ export const MyContacts = () => {
             </div>
             <div className={style.info}>
                 <div className={style.infoImage}>
-                    <img src={EMAIL} width="60px" height="60px"/>
+                    <img src={EMAIL}/>
                 </div>
                 <div className={style.infoText}>
                     <span className={style.mainSpan}> Email </span>

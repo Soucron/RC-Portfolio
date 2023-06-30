@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Network.module.css';
+import style from './Network.module.scss';
 
 type NetworkType = {
     src: string,
@@ -10,7 +10,7 @@ export const Network = (n: NetworkType) => {
     return (
         <div className={style.network}>
             <a href= {n.href} >
-                <img src ={n.src}/>
+                <img src ={n.src} alt='my social network'/>
             </a>
         </div>
     );

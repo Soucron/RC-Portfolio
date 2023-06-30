@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skill.module.css'
+import style from './Skill.module.scss'
 
 
 type SkillPropsType = {
@@ -10,9 +10,7 @@ type SkillPropsType = {
 const Skill = (s: SkillPropsType ) => {
     return (
         <div className={style.skill}>
-            <object type='image/svg+xml' data={s.img} width='60px' height='60px'>
-            <img src={s.img}  width='60px' height='60px' alt='SvgSkillImage'/>
-            </object>
+            <img src={s.img}  alt='SvgSkillImage'/>
             <h3>{s.title}</h3>
             <span className={style.description}>
 

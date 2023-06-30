@@ -1,6 +1,5 @@
 import React from 'react';
-import style from './Projects.module.css'
-import styleContainer from '../../src/common/styles/Container.module.css'
+import style from './Projects.module.scss'
 import Project from './project/Project';
 import TODOLIST from '../../src/assets/logo/projects/TODOLIST.png'
 
@@ -21,7 +20,7 @@ const Projects = () => {
 
     return (
         <div className={style.projectsBlock} id={'myProjects'} >
-            <div className={`${styleContainer.container} ${style.projectsContainer}`}>
+            <div className={style.projectsContainer}>
                 <h2 className={style.title}>My Projects</h2>
                 <div className={style.projects} >
                     {AllProjects.map(p => {
