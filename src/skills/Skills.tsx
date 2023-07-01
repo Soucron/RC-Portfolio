@@ -37,7 +37,7 @@ const Skills = () => {
     return (
         <div className={style.skillsBlock} id={'mySkills'}>
             <div className={style.skillsContainer}>
-                <h2 className={style.title}>SKILLS</h2>
+                <h2 className={style.title}>Skills</h2>
                 <ul className={style.skills}>
                     {AllSkills.map(s => {
                         return <li key={s.id}>

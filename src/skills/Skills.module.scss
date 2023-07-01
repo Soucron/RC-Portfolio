@@ -4,6 +4,7 @@
 .skillsBlock {
     min-height: 250px;
     @include flex(column, unset, unset);
+
     background-color: $backgroundFirstColor;
     .skillsContainer {
         width: 80%;

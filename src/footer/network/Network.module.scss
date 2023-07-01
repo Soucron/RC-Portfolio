@@ -3,11 +3,9 @@
 
 .network {
     @include flex(unset, center, center);
-    width: 60px;
-    height: 60px;
+    @include image(60px, 60px);
     img {
-        width: 32px;
-        height: 32px;
+        @include image(32px, 32px);
     }
 }
 

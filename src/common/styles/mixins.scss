@@ -13,3 +13,8 @@
   font-size: $size;
   color: $color;
 }
+
+@mixin image($width, $height) {
+  width: $width ;
+  height: $height ;
+}

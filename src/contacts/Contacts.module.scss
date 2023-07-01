@@ -5,6 +5,7 @@
   min-height: 400px;
   background: $backgroundFirstColor;
   @include flex(unset, center, center);
+
   padding-bottom: 50px;
 
   .contactsContainer {

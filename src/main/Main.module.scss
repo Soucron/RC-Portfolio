@@ -25,6 +25,7 @@
     }
 
     .text {
+      @include text($textFirstFont, normal, unset, unset);
       width: 300px;
       h1 {
         color: $backgroundFirstColor;
@@ -49,17 +50,14 @@
       }
     }
     .photo {
-      width: 360px;
-      height: 360px;
+      @include image(360px, 360px);
       background-color: $backgroundFirstColor;
       border-radius: 145px 145px 25px 25px;
       @media (max-width: 480px) {
-        width: 225px;
-        height: 225px;
+        @include image(225px, 225px);
       }
       @media (max-width: 720px) and (min-width: 480px) {
-        width: 300px;
-        height: 300px;
+        @include image(300px, 300px);
       }
     }
   }

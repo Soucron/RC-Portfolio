@@ -21,11 +21,10 @@
                 height: 40px;
             }
             img {
-                width: 60px;
-                height: 60px;
+
+                @include image(60px, 60px);
                 @media (max-width: 480px) {
-                    width: 40px;
-                    height: 40px;
+                    @include image(40px, 40px);
                 }
             }
         }
@@ -39,7 +38,7 @@
             }
             .mainSpan {
                 @include flex(unset, center, center);
-                font-size: 20px;
+                @include text($textFirstFont, bold, 20px, $backgroundThirdColor);
                 text-wrap: normal;
                 @media (max-width: 480px)  {
                         font-size: 16px;
@@ -47,7 +46,7 @@
             }
             .secondSpan {
                 @include flex(unset, center, center);
-                font-size: 16px;
+                @include text($textFirstFont, normal, 16px, $backgroundThirdColor );
                 flex-wrap: wrap;
                 text-wrap: normal;
                 word-break: break-word;

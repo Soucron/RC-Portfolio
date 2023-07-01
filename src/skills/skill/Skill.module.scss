@@ -10,7 +10,6 @@
     text-align: center;
     color: $backgroundThirdColor;
     img{
-        width: 60px;
-        height: 60px;
+        @include image(60px, 60px);
     }
 }

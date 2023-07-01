@@ -2,25 +2,28 @@
 @import '../../src/common/styles/variables';
 
 .footerBlock {
-    min-height:  100px;
-    background: $backgroundThirdColor;
-    @include flex(unset, center, center);
+  min-height: 100px;
+  background: $backgroundThirdColor;
+  @include flex(unset, center, center);
 
-    .footerContainer {
-        @include flex(column, space-between, center);
-        flex-wrap: wrap;
-        text-align: center;
-        h2 {
-            color: $backgroundSecondColor;
-            margin: 0;
-        }
-        .networks {
-            max-width: 280px;
-            border: 3px solid;
-            @include flex(row, space-evenly, unset);
-            flex-wrap: wrap;
-        }
+
+  .footerContainer {
+    @include flex(column, space-between, center);
+    flex-wrap: wrap;
+    text-align: center;
+
+    h2 {
+      color: $backgroundSecondColor;
+      margin: 0;
     }
+
+    .networks {
+      max-width: 280px;
+      border: 3px solid;
+      @include flex(row, space-evenly, unset);
+      flex-wrap: wrap;
+    }
+  }
 }
 
 
