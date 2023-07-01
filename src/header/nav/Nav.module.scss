@@ -1,8 +1,9 @@
+@import '../../../src/common/styles/mixins';
+@import '../../../src/common/styles/variables';
+
 .nav {
+  @include flex(row, space-between, normal);
   min-width: 300px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   z-index: 20;
   list-style: none;
   gap: 15px;
@@ -12,7 +13,7 @@
   }
 
   .navItem {
-    color: white;
+    color: $backgroundSecondColor;
     text-decoration: none;
     font-size: 22px;
     @media (max-width: 480px) {
@@ -21,9 +22,10 @@
   }
 
   .active {
-    color: rgb(253, 202, 64);
+    color: $backgroundFirstColor;
     text-decoration: none;
     font-size: 22px;
+
     @media (max-width: 480px) {
       font-size: 18px;
     }

@@ -1,24 +1,21 @@
+@import '../../../src/common/styles/mixins';
+@import '../../../src/common/styles/variables';
+
 
 .myContactsContainer {
     min-height: 300px;
     width: 50%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex(column,center, center);
     padding-top: 10px;
     .info {
         width: 100%;
-        display: flex;
-        flex-direction: row ;
+        @include flex(row, normal, unset);
         margin-top: 10px;
-        justify-content: normal;
         .infoImage {
             width: 60px;
             height: 60px;
-            display: flex;
-            justify-content: center;
+            @include flex(unset, center, unset);
             @media (max-width: 480px) {
                 width: 40px;
                 height: 40px;
@@ -33,31 +30,25 @@
             }
         }
         .infoText {
-            display: flex;
+            @include flex(column, unset, flex-start);
             min-height: 60px;
-            flex-direction: column;
             flex-wrap: wrap;
-            align-items: flex-start;
             padding-left: 10px;
             @media (max-width: 480px) {
                 padding-left: 5px;
             }
             .mainSpan {
-                display: flex;
+                @include flex(unset, center, center);
                 font-size: 20px;
-                align-items: center;
-                justify-content: center;
                 text-wrap: normal;
                 @media (max-width: 480px)  {
                         font-size: 16px;
                 }
             }
             .secondSpan {
-                display: flex;
+                @include flex(unset, center, center);
                 font-size: 16px;
                 flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
                 text-wrap: normal;
                 word-break: break-word;
                 @media (max-width: 480px) {

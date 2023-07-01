@@ -1,13 +1,14 @@
+@import '../../../src/common/styles/mixins';
+@import '../../../src/common/styles/variables';
+
 .skill {
     width: 90px;
     aspect-ratio: 1 / 1.3;
     border-radius: 0.5rem;
     padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, unset , center);
     text-align: center;
-    color: black;
+    color: $backgroundThirdColor;
     img{
         width: 60px;
         height: 60px;

@@ -10,14 +10,14 @@ import {Footer} from './footer/Footer';
 const  App = () => {
     return (
         <BrowserRouter>
-        <div>
+        <>
             <Header/>
             <Main/>
             <Skills/>
             <Projects/>
             <Contacts/>
             <Footer/>
-        </div>
+        </>
     </BrowserRouter>
     );
 }

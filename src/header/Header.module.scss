@@ -1,12 +1,13 @@
+@import '../../src/common/styles/mixins';
+@import '../../src/common/styles/variables';
+
+
 .header {
+    @include flex(unset, center, center);
     min-height: 80px;
     width: 100%;
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+    background-color: $backgroundThirdColor;
     z-index: 100;
-
 }
 

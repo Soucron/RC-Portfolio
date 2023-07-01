@@ -1,7 +1,8 @@
+@import '../../../src/common/styles/mixins';
+@import '../../../src/common/styles/variables';
+
 .network {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(unset, center, center);
     width: 60px;
     height: 60px;
     img {

@@ -1,24 +1,21 @@
+@import '../../src/common/styles/mixins';
+@import '../../src/common/styles/variables';
 
 .skillsBlock {
     min-height: 250px;
-    display: flex;
-    flex-direction: column;
-    background-color: #fdca40;
+    @include flex(column, unset, unset);
+    background-color: $backgroundFirstColor;
     .skillsContainer {
         width: 80%;
         margin: 0 auto;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: flex-start;
+        @include flex(column, flex-start, center);
         title {
             font-size: 20px;
-            color: black;
+            color: $backgroundThirdColor;
         }
         .skills {
             width: 100%;
-            display: flex;
-            justify-content: space-around;
+            @include flex(unset, space-around, unset);
             flex-wrap: wrap;
             gap: 15px;
             list-style: none;
