@@ -3,60 +3,63 @@
 
 
 .myContactsContainer {
-    min-height: 300px;
-    width: 50%;
-    margin: 0 auto;
-    @include flex(column,center, center);
-    padding-top: 10px;
-    .info {
-        width: 100%;
-        @include flex(row, normal, unset);
-        margin-top: 10px;
-        .infoImage {
-            width: 60px;
-            height: 60px;
-            @include flex(unset, center, unset);
-            @media (max-width: 480px) {
-                width: 40px;
-                height: 40px;
-            }
-            img {
+  min-height: 300px;
+  width: 50%;
+  margin: 0 auto;
+  @include flex(column, center, center);
+  padding-top: 10px;
 
-                @include image(60px, 60px);
-                @media (max-width: 480px) {
-                    @include image(40px, 40px);
-                }
-            }
-        }
-        .infoText {
-            @include flex(column, unset, flex-start);
-            min-height: 60px;
-            flex-wrap: wrap;
-            padding-left: 10px;
-            @media (max-width: 480px) {
-                padding-left: 5px;
-            }
-            .mainSpan {
-                @include flex(unset, center, center);
-                @include text($textFirstFont, bold, 20px, $backgroundThirdColor);
-                text-wrap: normal;
-                @media (max-width: 480px)  {
-                        font-size: 16px;
-                }
-            }
-            .secondSpan {
-                @include flex(unset, center, center);
-                @include text($textFirstFont, normal, 16px, $backgroundThirdColor );
-                flex-wrap: wrap;
-                text-wrap: normal;
-                word-break: break-word;
-                @media (max-width: 480px) {
-                    font-size: 14px ;
-                }
-            }
+  .info {
+    width: 100%;
+    @include flex(row, normal, unset);
+    margin-top: 10px;
 
+    .infoImage {
+      @include image(60px, 60px);
+      @include flex(unset, center, unset);
+      @media (max-width: 480px) {
+        @include image(40px, 40px);
+      }
+
+      img {
+        @include image(60px, 60px);
+        @media (max-width: 480px) {
+          @include image(40px, 40px);
         }
+      }
     }
+
+    .infoText {
+      @include flex(column, unset, flex-start);
+      min-height: 60px;
+      flex-wrap: wrap;
+      padding-left: 10px;
+      @media (max-width: 480px) {
+        padding-left: 5px;
+      }
+
+      .mainSpan {
+        @include flex(unset, center, center);
+        @include text($textFirstFont, bold, 20px, $backgroundThirdColor);
+        text-wrap: normal;
+        @media (max-width: 480px) {
+          font-size: 16px;
+        }
+      }
+
+      .secondSpan {
+        @include flex(unset, center, center);
+        @include text($textFirstFont, normal, 16px, $backgroundThirdColor);
+        flex-wrap: wrap;
+        text-wrap: normal;
+        word-break: break-word;
+        @media (max-width: 480px) {
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
 }
 
 
