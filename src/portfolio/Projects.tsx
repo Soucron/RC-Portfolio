@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Projects.module.scss'
 import Project from './project/Project';
 import TODOLIST from '../../src/assets/logo/projects/TODOLIST.png'
+import {Slide} from 'react-awesome-reveal';
 
 export type ProjectType = {
     href: any,
@@ -13,18 +14,23 @@ export type ProjectType = {
 const Projects = () => {
 
     const AllProjects: ProjectType[] = [
-        {name: 'Todolist',
+        {
+            name: 'Todolist',
             description: 'React app created with Redux, Typescript, MUI',
-            href: '', src:TODOLIST}]
+            href: '', src: TODOLIST
+        }]
 
 
     return (
-        <div className={style.projectsBlock} id={'myProjects'} >
+        <div className={style.projectsBlock} id={'myProjects'}>
             <div className={style.projectsContainer}>
                 <h2 className={style.title}>My Projects</h2>
-                <div className={style.projects} >
+                <div className={style.projects}>
                     {AllProjects.map(p => {
-                        return(<Project name={p.name} description={p.description} href={p.href} src={p.src}/> )
+                        return (<Slide triggerOnce={true} direction={'left'}>
+                            <Project name={p.name} description={p.description} href={p.href} src={p.src}/>
+                        </Slide>
+                        )
                     })}
 
 

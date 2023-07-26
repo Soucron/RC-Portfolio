@@ -27,7 +27,7 @@
     .text {
       @include text($textFirstFont, normal, unset, unset);
       width: 300px;
-      h1 {
+      .animSpan {
         color: $backgroundFirstColor;
         @media (max-width: 480px) {
           font-size: 24px;
@@ -62,6 +62,8 @@
     }
   }
 }
+
+
 
 
 

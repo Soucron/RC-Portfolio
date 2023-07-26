@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Skill.module.scss'
+import {Roll, Slide} from 'react-awesome-reveal';
 
 
 type SkillPropsType = {
@@ -16,6 +17,7 @@ const Skill = (s: SkillPropsType ) => {
 
             </span>
         </div>
+
     );
 };
 
